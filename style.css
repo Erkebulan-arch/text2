@@ -1,0 +1,69 @@
+.blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transition: all;
+
+}
+.blue:hover{
+    transform: rotate(0deg);
+    transform: rotate(360deg)  scale(1.2) ;
+    
+    background: rebeccapurple;
+    background: rgb(227, 174, 253);
+    transition-duration: 2s;
+    
+    
+
+}
+
+
+
+
+.red{
+    background-color: red;
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 999px;
+    border: 1px solid black;
+    animation: left 2s infinite;
+}
+
+img{
+    width: 250px;
+    animation: rotate 0.5s infinite;
+}
+@keyframes rotate{
+    0%{
+        rotate: 10deg;
+        
+    }
+    10%{
+        rotate: 50deg;
+    }
+    20%{
+        rotate: 100deg;
+    }
+    30%{
+        rotate: 150deg;
+    }
+    40%{
+        rotate: 200deg;
+    }
+    50%{
+        rotate: 250deg;
+    }
+    60%{
+        rotate: 300de0g;
+    }
+    70%{
+        rotate: 320deg;
+    }
+    80%{
+        rotate: 350deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
